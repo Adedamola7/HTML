@@ -1,0 +1,36 @@
+body {
+    background: #F2F2F2;
+    margin: 0;
+    font-family: cursive;
+}
+
+:root {
+    --primary_color: #007af3
+}
+.nav_bar {
+
+    background: white;
+    padding: 1em;
+}
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+    
+
+}
+
+span {
+    color: var(--primary_color) ;
+}
+nav {
+    display: none;
+}
+.container{
+    display: flex;
+    place-content: space-between;
+}
+
+
+
